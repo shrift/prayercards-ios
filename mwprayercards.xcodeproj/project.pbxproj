@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561F3ED314D9B70B00A97946 /* h1-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F3ECF14D9B70B00A97946 /* h1-bg.png */; };
+		561F3ED414D9B70B00A97946 /* h3-bg-copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F3ED014D9B70B00A97946 /* h3-bg-copy.png */; };
+		561F3ED514D9B70B00A97946 /* h3-bg-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F3ED114D9B70B00A97946 /* h3-bg-small.png */; };
+		561F3ED614D9B70B00A97946 /* h3-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F3ED214D9B70B00A97946 /* h3-bg.png */; };
+		561F3ED914D9B82B00A97946 /* style.css in Resources */ = {isa = PBXBuildFile; fileRef = 561F3ED714D9B82B00A97946 /* style.css */; };
+		561F3EDA14D9B82B00A97946 /* gratitude_examen.html in Resources */ = {isa = PBXBuildFile; fileRef = 561F3ED814D9B82B00A97946 /* gratitude_examen.html */; };
+		561F3EE014D9D6E100A97946 /* adore_god.html in Resources */ = {isa = PBXBuildFile; fileRef = 561F3EDF14D9D6E100A97946 /* adore_god.html */; };
+		561F3EE214D9D7F000A97946 /* prayer_of_love.html in Resources */ = {isa = PBXBuildFile; fileRef = 561F3EE114D9D7F000A97946 /* prayer_of_love.html */; };
+		561F3EE414D9DF4F00A97946 /* be_still_meditation.html in Resources */ = {isa = PBXBuildFile; fileRef = 561F3EE314D9DF4F00A97946 /* be_still_meditation.html */; };
+		561F3EE714D9EEF000A97946 /* the_divine_hours.html in Resources */ = {isa = PBXBuildFile; fileRef = 561F3EE614D9EEF000A97946 /* the_divine_hours.html */; };
+		561F3EE914D9F0C300A97946 /* serenity_prayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 561F3EE814D9F0C300A97946 /* serenity_prayer.html */; };
+		561F3EEB14D9F3A200A97946 /* scripture_meditation.html in Resources */ = {isa = PBXBuildFile; fileRef = 561F3EEA14D9F3A200A97946 /* scripture_meditation.html */; };
+		561F3EED14D9F51600A97946 /* the_jesus_prayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 561F3EEC14D9F51500A97946 /* the_jesus_prayer.html */; };
+		561F3EEF14D9F78800A97946 /* act_of_surrender.html in Resources */ = {isa = PBXBuildFile; fileRef = 561F3EEE14D9F78800A97946 /* act_of_surrender.html */; };
+		561F3EF114D9F93300A97946 /* prayer_practice_cards.html in Resources */ = {isa = PBXBuildFile; fileRef = 561F3EF014D9F93300A97946 /* prayer_practice_cards.html */; };
+		561F3FD614DB21CC00A97946 /* DivineHoursChoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561F3FD414DB21CC00A97946 /* DivineHoursChoiceViewController.m */; };
+		561F3FD714DB21CC00A97946 /* DivineHoursChoiceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561F3FD514DB21CC00A97946 /* DivineHoursChoiceViewController.xib */; };
+		561F3FE014DB227B00A97946 /* CardListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561F3FDE14DB227B00A97946 /* CardListViewController.m */; };
+		561F3FE114DB227B00A97946 /* CardListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561F3FDF14DB227B00A97946 /* CardListViewController.xib */; };
+		561F3FE514DB228B00A97946 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561F3FE314DB228B00A97946 /* AboutViewController.m */; };
+		561F3FE614DB228B00A97946 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561F3FE414DB228B00A97946 /* AboutViewController.xib */; };
+		561F3FEA14DB4CF100A97946 /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561F3FE714DB4CF000A97946 /* CardCell.xib */; };
+		561F3FEB14DB4CF100A97946 /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 561F3FE814DB4CF000A97946 /* CardCell.m */; };
+		561F3FEF14DB554100A97946 /* MyUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561F3FED14DB553F00A97946 /* MyUINavigationController.m */; };
+		561F3FF314DB55F600A97946 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561F3FF114DB55F600A97946 /* CardViewController.xib */; };
+		561F400014DC83A200A97946 /* SafariViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561F3FFE14DC83A200A97946 /* SafariViewController.m */; };
+		561F400314DC83AC00A97946 /* SafariViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 561F400114DC83AC00A97946 /* SafariViewController.xib */; };
+		561F400614DC891700A97946 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 561F400414DC891600A97946 /* Utils.m */; };
+		561F400D14DC966F00A97946 /* book-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F400B14DC966E00A97946 /* book-icon@2x.png */; };
+		561F400E14DC966F00A97946 /* book-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F400C14DC966F00A97946 /* book-icon.png */; };
+		561F401114DCA32200A97946 /* pathosethos-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F400F14DCA32000A97946 /* pathosethos-logo@2x.png */; };
+		561F401214DCA32200A97946 /* pathosethos-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 561F401014DCA32100A97946 /* pathosethos-logo.png */; };
+		563BE71D14E1AA53004F56FB /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 563BE71A14E1AA53004F56FB /* SplashViewController.xib */; };
+		563BE71E14E1AA53004F56FB /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 563BE71B14E1AA53004F56FB /* SplashViewController.m */; };
+		5656216B14D7354A008DFB07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656216A14D7354A008DFB07 /* UIKit.framework */; };
+		5656216D14D7354A008DFB07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656216C14D7354A008DFB07 /* Foundation.framework */; };
+		5656216F14D7354A008DFB07 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5656216E14D7354A008DFB07 /* CoreGraphics.framework */; };
+		5656217514D7354A008DFB07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5656217314D7354A008DFB07 /* InfoPlist.strings */; };
+		5656217714D7354A008DFB07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5656217614D7354A008DFB07 /* main.m */; };
+		5656217B14D7354A008DFB07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5656217A14D7354A008DFB07 /* AppDelegate.m */; };
+		5656217E14D7354A008DFB07 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5656217D14D7354A008DFB07 /* CardViewController.m */; };
+		56A11D9F14E093F200F5CE54 /* genericLongButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A11D9D14E093F200F5CE54 /* genericLongButton@2x.png */; };
+		56A11DA014E093F200F5CE54 /* genericLongButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A11D9E14E093F200F5CE54 /* genericLongButton.png */; };
+		56A11DAD14E099AF00F5CE54 /* icon_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A11DA714E099AE00F5CE54 /* icon_info@2x.png */; };
+		56A11DAE14E099AF00F5CE54 /* icon_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A11DA814E099AE00F5CE54 /* icon_info.png */; };
+		56A11DAF14E099AF00F5CE54 /* icon_clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A11DA914E099AE00F5CE54 /* icon_clock@2x.png */; };
+		56A11DB014E099AF00F5CE54 /* icon_clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A11DAA14E099AE00F5CE54 /* icon_clock.png */; };
+		56A11DB114E099AF00F5CE54 /* icon_card@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A11DAB14E099AE00F5CE54 /* icon_card@2x.png */; };
+		56A11DB214E099AF00F5CE54 /* icon_card.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A11DAC14E099AF00F5CE54 /* icon_card.png */; };
+		56A11DB514E0C00400F5CE54 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A11DB314E0C00400F5CE54 /* Icon@2x.png */; };
+		56A11DB614E0C00400F5CE54 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A11DB414E0C00400F5CE54 /* Icon.png */; };
+		56EF014914FEEC9100E77E11 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EF014814FEEC9100E77E11 /* DataSource.m */; };
+		56EF014E14FF02C000E77E11 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EF014A14FF02C000E77E11 /* left.png */; };
+		56EF014F14FF02C000E77E11 /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EF014B14FF02C000E77E11 /* left@2x.png */; };
+		56EF015014FF02C000E77E11 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EF014C14FF02C000E77E11 /* right.png */; };
+		56EF015114FF02C000E77E11 /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56EF014D14FF02C000E77E11 /* right@2x.png */; };
+		5CE0C80B19DB486D0097B859 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CE0C80A19DB486D0097B859 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		561F3ECF14D9B70B00A97946 /* h1-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "h1-bg.png"; path = "resources/h1-bg.png"; sourceTree = "<group>"; };
+		561F3ED014D9B70B00A97946 /* h3-bg-copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "h3-bg-copy.png"; path = "resources/h3-bg-copy.png"; sourceTree = "<group>"; };
+		561F3ED114D9B70B00A97946 /* h3-bg-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "h3-bg-small.png"; path = "resources/h3-bg-small.png"; sourceTree = "<group>"; };
+		561F3ED214D9B70B00A97946 /* h3-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "h3-bg.png"; path = "resources/h3-bg.png"; sourceTree = "<group>"; };
+		561F3ED714D9B82B00A97946 /* style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; name = style.css; path = resources/style.css; sourceTree = "<group>"; };
+		561F3ED814D9B82B00A97946 /* gratitude_examen.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = gratitude_examen.html; path = resources/gratitude_examen.html; sourceTree = "<group>"; };
+		561F3EDF14D9D6E100A97946 /* adore_god.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = adore_god.html; path = resources/adore_god.html; sourceTree = "<group>"; };
+		561F3EE114D9D7F000A97946 /* prayer_of_love.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = prayer_of_love.html; path = resources/prayer_of_love.html; sourceTree = "<group>"; };
+		561F3EE314D9DF4F00A97946 /* be_still_meditation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = be_still_meditation.html; path = resources/be_still_meditation.html; sourceTree = "<group>"; };
+		561F3EE614D9EEF000A97946 /* the_divine_hours.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = the_divine_hours.html; path = resources/the_divine_hours.html; sourceTree = "<group>"; };
+		561F3EE814D9F0C300A97946 /* serenity_prayer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = serenity_prayer.html; path = resources/serenity_prayer.html; sourceTree = "<group>"; };
+		561F3EEA14D9F3A200A97946 /* scripture_meditation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = scripture_meditation.html; path = resources/scripture_meditation.html; sourceTree = "<group>"; };
+		561F3EEC14D9F51500A97946 /* the_jesus_prayer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = the_jesus_prayer.html; path = resources/the_jesus_prayer.html; sourceTree = "<group>"; };
+		561F3EEE14D9F78800A97946 /* act_of_surrender.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = act_of_surrender.html; path = resources/act_of_surrender.html; sourceTree = "<group>"; };
+		561F3EF014D9F93300A97946 /* prayer_practice_cards.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = prayer_practice_cards.html; path = resources/prayer_practice_cards.html; sourceTree = "<group>"; };
+		561F3FD314DB21CC00A97946 /* DivineHoursChoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DivineHoursChoiceViewController.h; sourceTree = "<group>"; };
+		561F3FD414DB21CC00A97946 /* DivineHoursChoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DivineHoursChoiceViewController.m; sourceTree = "<group>"; };
+		561F3FD514DB21CC00A97946 /* DivineHoursChoiceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DivineHoursChoiceViewController.xib; sourceTree = "<group>"; };
+		561F3FDD14DB227B00A97946 /* CardListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardListViewController.h; sourceTree = "<group>"; };
+		561F3FDE14DB227B00A97946 /* CardListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardListViewController.m; sourceTree = "<group>"; };
+		561F3FDF14DB227B00A97946 /* CardListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardListViewController.xib; sourceTree = "<group>"; };
+		561F3FE214DB228B00A97946 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		561F3FE314DB228B00A97946 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		561F3FE414DB228B00A97946 /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		561F3FE714DB4CF000A97946 /* CardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		561F3FE814DB4CF000A97946 /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		561F3FE914DB4CF100A97946 /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		561F3FEC14DB553E00A97946 /* MyUINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUINavigationController.h; sourceTree = "<group>"; };
+		561F3FED14DB553F00A97946 /* MyUINavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUINavigationController.m; sourceTree = "<group>"; };
+		561F3FF214DB55F600A97946 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CardViewController.xib; sourceTree = "<group>"; };
+		561F3FFE14DC83A200A97946 /* SafariViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SafariViewController.m; sourceTree = "<group>"; };
+		561F3FFF14DC83A200A97946 /* SafariViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafariViewController.h; sourceTree = "<group>"; };
+		561F400214DC83AC00A97946 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SafariViewController.xib; sourceTree = "<group>"; };
+		561F400414DC891600A97946 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		561F400514DC891600A97946 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		561F400B14DC966E00A97946 /* book-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book-icon@2x.png"; path = "resources/book-icon@2x.png"; sourceTree = "<group>"; };
+		561F400C14DC966F00A97946 /* book-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "book-icon.png"; path = "resources/book-icon.png"; sourceTree = "<group>"; };
+		561F400F14DCA32000A97946 /* pathosethos-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pathosethos-logo@2x.png"; path = "resources/pathosethos-logo@2x.png"; sourceTree = "<group>"; };
+		561F401014DCA32100A97946 /* pathosethos-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pathosethos-logo.png"; path = "resources/pathosethos-logo.png"; sourceTree = "<group>"; };
+		563BE71A14E1AA53004F56FB /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SplashViewController.xib; sourceTree = "<group>"; };
+		563BE71B14E1AA53004F56FB /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
+		563BE71C14E1AA53004F56FB /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SplashViewController.h; sourceTree = "<group>"; };
+		5656216614D7354A008DFB07 /* mwprayercards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mwprayercards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5656216A14D7354A008DFB07 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5656216C14D7354A008DFB07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5656216E14D7354A008DFB07 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5656217214D7354A008DFB07 /* mwprayercards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mwprayercards-Info.plist"; sourceTree = "<group>"; };
+		5656217414D7354A008DFB07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5656217614D7354A008DFB07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5656217814D7354A008DFB07 /* mwprayercards-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mwprayercards-Prefix.pch"; sourceTree = "<group>"; };
+		5656217914D7354A008DFB07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5656217A14D7354A008DFB07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5656217C14D7354A008DFB07 /* CardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
+		5656217D14D7354A008DFB07 /* CardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
+		56A11D9D14E093F200F5CE54 /* genericLongButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "genericLongButton@2x.png"; path = "resources/genericLongButton@2x.png"; sourceTree = "<group>"; };
+		56A11D9E14E093F200F5CE54 /* genericLongButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = genericLongButton.png; path = resources/genericLongButton.png; sourceTree = "<group>"; };
+		56A11DA714E099AE00F5CE54 /* icon_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_info@2x.png"; path = "resources/icon_info@2x.png"; sourceTree = "<group>"; };
+		56A11DA814E099AE00F5CE54 /* icon_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_info.png; path = resources/icon_info.png; sourceTree = "<group>"; };
+		56A11DA914E099AE00F5CE54 /* icon_clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_clock@2x.png"; path = "resources/icon_clock@2x.png"; sourceTree = "<group>"; };
+		56A11DAA14E099AE00F5CE54 /* icon_clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_clock.png; path = resources/icon_clock.png; sourceTree = "<group>"; };
+		56A11DAB14E099AE00F5CE54 /* icon_card@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_card@2x.png"; path = "resources/icon_card@2x.png"; sourceTree = "<group>"; };
+		56A11DAC14E099AF00F5CE54 /* icon_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_card.png; path = resources/icon_card.png; sourceTree = "<group>"; };
+		56A11DB314E0C00400F5CE54 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "resources/Icon@2x.png"; sourceTree = "<group>"; };
+		56A11DB414E0C00400F5CE54 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = resources/Icon.png; sourceTree = "<group>"; };
+		56EF014714FEEC9100E77E11 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		56EF014814FEEC9100E77E11 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		56EF014A14FF02C000E77E11 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = left.png; path = resources/left.png; sourceTree = "<group>"; };
+		56EF014B14FF02C000E77E11 /* left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "left@2x.png"; path = "resources/left@2x.png"; sourceTree = "<group>"; };
+		56EF014C14FF02C000E77E11 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = right.png; path = resources/right.png; sourceTree = "<group>"; };
+		56EF014D14FF02C000E77E11 /* right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "right@2x.png"; path = "resources/right@2x.png"; sourceTree = "<group>"; };
+		5CE0C80A19DB486D0097B859 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5656216314D7354A008DFB07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5656216B14D7354A008DFB07 /* UIKit.framework in Frameworks */,
+				5656216D14D7354A008DFB07 /* Foundation.framework in Frameworks */,
+				5656216F14D7354A008DFB07 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561F3ECA14D9B05700A97946 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				56EF014A14FF02C000E77E11 /* left.png */,
+				56EF014B14FF02C000E77E11 /* left@2x.png */,
+				56EF014C14FF02C000E77E11 /* right.png */,
+				56EF014D14FF02C000E77E11 /* right@2x.png */,
+				56A11DB314E0C00400F5CE54 /* Icon@2x.png */,
+				56A11DB414E0C00400F5CE54 /* Icon.png */,
+				56A11DA714E099AE00F5CE54 /* icon_info@2x.png */,
+				56A11DA814E099AE00F5CE54 /* icon_info.png */,
+				56A11DA914E099AE00F5CE54 /* icon_clock@2x.png */,
+				56A11DAA14E099AE00F5CE54 /* icon_clock.png */,
+				56A11DAB14E099AE00F5CE54 /* icon_card@2x.png */,
+				56A11DAC14E099AF00F5CE54 /* icon_card.png */,
+				56A11D9D14E093F200F5CE54 /* genericLongButton@2x.png */,
+				56A11D9E14E093F200F5CE54 /* genericLongButton.png */,
+				561F400F14DCA32000A97946 /* pathosethos-logo@2x.png */,
+				561F401014DCA32100A97946 /* pathosethos-logo.png */,
+				561F400B14DC966E00A97946 /* book-icon@2x.png */,
+				561F400C14DC966F00A97946 /* book-icon.png */,
+				561F3EE514D9DF5400A97946 /* html content */,
+				561F3ECF14D9B70B00A97946 /* h1-bg.png */,
+				561F3ED014D9B70B00A97946 /* h3-bg-copy.png */,
+				561F3ED114D9B70B00A97946 /* h3-bg-small.png */,
+				561F3ED214D9B70B00A97946 /* h3-bg.png */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		561F3EE514D9DF5400A97946 /* html content */ = {
+			isa = PBXGroup;
+			children = (
+				561F3EF014D9F93300A97946 /* prayer_practice_cards.html */,
+				561F3EEE14D9F78800A97946 /* act_of_surrender.html */,
+				561F3EEC14D9F51500A97946 /* the_jesus_prayer.html */,
+				561F3EEA14D9F3A200A97946 /* scripture_meditation.html */,
+				561F3EE814D9F0C300A97946 /* serenity_prayer.html */,
+				561F3EE614D9EEF000A97946 /* the_divine_hours.html */,
+				561F3EE314D9DF4F00A97946 /* be_still_meditation.html */,
+				561F3EE114D9D7F000A97946 /* prayer_of_love.html */,
+				561F3EDF14D9D6E100A97946 /* adore_god.html */,
+				561F3ED714D9B82B00A97946 /* style.css */,
+				561F3ED814D9B82B00A97946 /* gratitude_examen.html */,
+			);
+			name = "html content";
+			sourceTree = "<group>";
+		};
+		561F3FFB14DC7FA600A97946 /* prayer card tab */ = {
+			isa = PBXGroup;
+			children = (
+				563BE71A14E1AA53004F56FB /* SplashViewController.xib */,
+				563BE71B14E1AA53004F56FB /* SplashViewController.m */,
+				563BE71C14E1AA53004F56FB /* SplashViewController.h */,
+				5656217C14D7354A008DFB07 /* CardViewController.h */,
+				5656217D14D7354A008DFB07 /* CardViewController.m */,
+				561F3FF114DB55F600A97946 /* CardViewController.xib */,
+				561F3FDD14DB227B00A97946 /* CardListViewController.h */,
+				561F3FDE14DB227B00A97946 /* CardListViewController.m */,
+				561F3FDF14DB227B00A97946 /* CardListViewController.xib */,
+				561F3FE714DB4CF000A97946 /* CardCell.xib */,
+				561F3FE814DB4CF000A97946 /* CardCell.m */,
+				561F3FE914DB4CF100A97946 /* CardCell.h */,
+			);
+			name = "prayer card tab";
+			sourceTree = "<group>";
+		};
+		561F3FFC14DC7FBE00A97946 /* divine hours tab */ = {
+			isa = PBXGroup;
+			children = (
+				561F3FFF14DC83A200A97946 /* SafariViewController.h */,
+				561F3FFE14DC83A200A97946 /* SafariViewController.m */,
+				561F400114DC83AC00A97946 /* SafariViewController.xib */,
+				561F3FD314DB21CC00A97946 /* DivineHoursChoiceViewController.h */,
+				561F3FD414DB21CC00A97946 /* DivineHoursChoiceViewController.m */,
+				561F3FD514DB21CC00A97946 /* DivineHoursChoiceViewController.xib */,
+			);
+			name = "divine hours tab";
+			sourceTree = "<group>";
+		};
+		561F3FFD14DC7FDA00A97946 /* about tab */ = {
+			isa = PBXGroup;
+			children = (
+				561F3FE214DB228B00A97946 /* AboutViewController.h */,
+				561F3FE314DB228B00A97946 /* AboutViewController.m */,
+				561F3FE414DB228B00A97946 /* AboutViewController.xib */,
+			);
+			name = "about tab";
+			sourceTree = "<group>";
+		};
+		5656215B14D7354A008DFB07 = {
+			isa = PBXGroup;
+			children = (
+				5CE0C80A19DB486D0097B859 /* Default-568h@2x.png */,
+				561F3ECA14D9B05700A97946 /* resources */,
+				5656217014D7354A008DFB07 /* mwprayercards */,
+				5656216914D7354A008DFB07 /* Frameworks */,
+				5656216714D7354A008DFB07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5656216714D7354A008DFB07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5656216614D7354A008DFB07 /* mwprayercards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5656216914D7354A008DFB07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5656216A14D7354A008DFB07 /* UIKit.framework */,
+				5656216C14D7354A008DFB07 /* Foundation.framework */,
+				5656216E14D7354A008DFB07 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5656217014D7354A008DFB07 /* mwprayercards */ = {
+			isa = PBXGroup;
+			children = (
+				561F400414DC891600A97946 /* Utils.m */,
+				561F400514DC891600A97946 /* Utils.h */,
+				56EF014714FEEC9100E77E11 /* DataSource.h */,
+				56EF014814FEEC9100E77E11 /* DataSource.m */,
+				561F3FFD14DC7FDA00A97946 /* about tab */,
+				561F3FFC14DC7FBE00A97946 /* divine hours tab */,
+				561F3FFB14DC7FA600A97946 /* prayer card tab */,
+				5656217914D7354A008DFB07 /* AppDelegate.h */,
+				5656217A14D7354A008DFB07 /* AppDelegate.m */,
+				5656217114D7354A008DFB07 /* Supporting Files */,
+				561F3FEC14DB553E00A97946 /* MyUINavigationController.h */,
+				561F3FED14DB553F00A97946 /* MyUINavigationController.m */,
+			);
+			path = mwprayercards;
+			sourceTree = "<group>";
+		};
+		5656217114D7354A008DFB07 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5656217214D7354A008DFB07 /* mwprayercards-Info.plist */,
+				5656217314D7354A008DFB07 /* InfoPlist.strings */,
+				5656217614D7354A008DFB07 /* main.m */,
+				5656217814D7354A008DFB07 /* mwprayercards-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5656216514D7354A008DFB07 /* mwprayercards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5656219214D7354A008DFB07 /* Build configuration list for PBXNativeTarget "mwprayercards" */;
+			buildPhases = (
+				5656216214D7354A008DFB07 /* Sources */,
+				5656216314D7354A008DFB07 /* Frameworks */,
+				5656216414D7354A008DFB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mwprayercards;
+			productName = mwprayercards;
+			productReference = 5656216614D7354A008DFB07 /* mwprayercards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5656215D14D7354A008DFB07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kobukson Studio LLC";
+				TargetAttributes = {
+					5656216514D7354A008DFB07 = {
+						DevelopmentTeam = 5ZDY7SK986;
+					};
+				};
+			};
+			buildConfigurationList = 5656216014D7354A008DFB07 /* Build configuration list for PBXProject "mwprayercards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5656215B14D7354A008DFB07;
+			productRefGroup = 5656216714D7354A008DFB07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5656216514D7354A008DFB07 /* mwprayercards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5656216414D7354A008DFB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5656217514D7354A008DFB07 /* InfoPlist.strings in Resources */,
+				5CE0C80B19DB486D0097B859 /* Default-568h@2x.png in Resources */,
+				561F3ED314D9B70B00A97946 /* h1-bg.png in Resources */,
+				561F3ED414D9B70B00A97946 /* h3-bg-copy.png in Resources */,
+				561F3ED514D9B70B00A97946 /* h3-bg-small.png in Resources */,
+				561F3ED614D9B70B00A97946 /* h3-bg.png in Resources */,
+				561F3ED914D9B82B00A97946 /* style.css in Resources */,
+				561F3EDA14D9B82B00A97946 /* gratitude_examen.html in Resources */,
+				561F3EE014D9D6E100A97946 /* adore_god.html in Resources */,
+				561F3EE214D9D7F000A97946 /* prayer_of_love.html in Resources */,
+				561F3EE414D9DF4F00A97946 /* be_still_meditation.html in Resources */,
+				561F3EE714D9EEF000A97946 /* the_divine_hours.html in Resources */,
+				561F3EE914D9F0C300A97946 /* serenity_prayer.html in Resources */,
+				561F3EEB14D9F3A200A97946 /* scripture_meditation.html in Resources */,
+				561F3EED14D9F51600A97946 /* the_jesus_prayer.html in Resources */,
+				561F3EEF14D9F78800A97946 /* act_of_surrender.html in Resources */,
+				561F3EF114D9F93300A97946 /* prayer_practice_cards.html in Resources */,
+				561F3FD714DB21CC00A97946 /* DivineHoursChoiceViewController.xib in Resources */,
+				561F3FE114DB227B00A97946 /* CardListViewController.xib in Resources */,
+				561F3FE614DB228B00A97946 /* AboutViewController.xib in Resources */,
+				561F3FEA14DB4CF100A97946 /* CardCell.xib in Resources */,
+				561F3FF314DB55F600A97946 /* CardViewController.xib in Resources */,
+				561F400314DC83AC00A97946 /* SafariViewController.xib in Resources */,
+				561F400D14DC966F00A97946 /* book-icon@2x.png in Resources */,
+				561F400E14DC966F00A97946 /* book-icon.png in Resources */,
+				561F401114DCA32200A97946 /* pathosethos-logo@2x.png in Resources */,
+				561F401214DCA32200A97946 /* pathosethos-logo.png in Resources */,
+				56A11D9F14E093F200F5CE54 /* genericLongButton@2x.png in Resources */,
+				56A11DA014E093F200F5CE54 /* genericLongButton.png in Resources */,
+				56A11DAD14E099AF00F5CE54 /* icon_info@2x.png in Resources */,
+				56A11DAE14E099AF00F5CE54 /* icon_info.png in Resources */,
+				56A11DAF14E099AF00F5CE54 /* icon_clock@2x.png in Resources */,
+				56A11DB014E099AF00F5CE54 /* icon_clock.png in Resources */,
+				56A11DB114E099AF00F5CE54 /* icon_card@2x.png in Resources */,
+				56A11DB214E099AF00F5CE54 /* icon_card.png in Resources */,
+				56A11DB514E0C00400F5CE54 /* Icon@2x.png in Resources */,
+				56A11DB614E0C00400F5CE54 /* Icon.png in Resources */,
+				563BE71D14E1AA53004F56FB /* SplashViewController.xib in Resources */,
+				56EF014E14FF02C000E77E11 /* left.png in Resources */,
+				56EF014F14FF02C000E77E11 /* left@2x.png in Resources */,
+				56EF015014FF02C000E77E11 /* right.png in Resources */,
+				56EF015114FF02C000E77E11 /* right@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5656216214D7354A008DFB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5656217714D7354A008DFB07 /* main.m in Sources */,
+				5656217B14D7354A008DFB07 /* AppDelegate.m in Sources */,
+				5656217E14D7354A008DFB07 /* CardViewController.m in Sources */,
+				561F3FD614DB21CC00A97946 /* DivineHoursChoiceViewController.m in Sources */,
+				561F3FE014DB227B00A97946 /* CardListViewController.m in Sources */,
+				561F3FE514DB228B00A97946 /* AboutViewController.m in Sources */,
+				561F3FEB14DB4CF100A97946 /* CardCell.m in Sources */,
+				561F3FEF14DB554100A97946 /* MyUINavigationController.m in Sources */,
+				561F400014DC83A200A97946 /* SafariViewController.m in Sources */,
+				561F400614DC891700A97946 /* Utils.m in Sources */,
+				563BE71E14E1AA53004F56FB /* SplashViewController.m in Sources */,
+				56EF014914FEEC9100E77E11 /* DataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		561F3FF114DB55F600A97946 /* CardViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561F3FF214DB55F600A97946 /* en */,
+			);
+			name = CardViewController.xib;
+			sourceTree = "<group>";
+		};
+		561F400114DC83AC00A97946 /* SafariViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561F400214DC83AC00A97946 /* en */,
+			);
+			name = SafariViewController.xib;
+			sourceTree = "<group>";
+		};
+		5656217314D7354A008DFB07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5656217414D7354A008DFB07 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5656219014D7354A008DFB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5656219114D7354A008DFB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5656219314D7354A008DFB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mwprayercards/mwprayercards-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "mwprayercards/mwprayercards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5656219414D7354A008DFB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mwprayercards/mwprayercards-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "mwprayercards/mwprayercards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56A11DB714E0C06800F5CE54 /* Distribution Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Distribution Adhoc";
+		};
+		56A11DB814E0C06800F5CE54 /* Distribution Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mwprayercards/mwprayercards-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "mwprayercards/mwprayercards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Distribution Adhoc";
+		};
+		56A11DB914E0C08900F5CE54 /* Distribution AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Distribution AppStore";
+		};
+		56A11DBA14E0C08900F5CE54 /* Distribution AppStore */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pathos Ethos LLC";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mwprayercards/mwprayercards-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "mwprayercards/mwprayercards-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "013FC76D-8701-45F2-A2D1-1084257645D7";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "013FC76D-8701-45F2-A2D1-1084257645D7";
+				VALID_ARCHS = "armv7 armv7s arm64";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Distribution AppStore";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5656216014D7354A008DFB07 /* Build configuration list for PBXProject "mwprayercards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5656219014D7354A008DFB07 /* Debug */,
+				5656219114D7354A008DFB07 /* Release */,
+				56A11DB714E0C06800F5CE54 /* Distribution Adhoc */,
+				56A11DB914E0C08900F5CE54 /* Distribution AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5656219214D7354A008DFB07 /* Build configuration list for PBXNativeTarget "mwprayercards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5656219314D7354A008DFB07 /* Debug */,
+				5656219414D7354A008DFB07 /* Release */,
+				56A11DB814E0C06800F5CE54 /* Distribution Adhoc */,
+				56A11DBA14E0C08900F5CE54 /* Distribution AppStore */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5656215D14D7354A008DFB07 /* Project object */;
+}
